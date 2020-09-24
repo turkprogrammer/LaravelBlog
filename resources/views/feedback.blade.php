@@ -9,18 +9,7 @@
             <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
                 <strong>Feedback Form:</strong>
             </h3>
-            <br/>
-@if($errors->any())
-<div class="alert-danger">
-    <ul>
-        @foreach($errors->all() as $error)
-        <li>
-            {{$error}}
-        </li>
-        @endforeach
-    </ul>
-</div>
-@endif
+@include('messages')
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">

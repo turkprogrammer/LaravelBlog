@@ -16,7 +16,7 @@ class ContactController extends Controller {
         $contact->email = $request->input('email');
         $contact->textarea = $request->input('textarea');        
         $contact->save();// save form to table contacts
-        return redirect('/feedback');
+        return redirect('/feedback')->with('success', 'Message was send it!');
     }
 
 }
