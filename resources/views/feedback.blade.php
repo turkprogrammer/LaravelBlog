@@ -13,7 +13,9 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="JwUm8Xej/iTPi56NEyug2tHAdokv5QwsYigXUb/UO37Giuv6w2KE/8+yJ3hYxlHLDvUCrT+awClic+akgb8fztZeFdLTV/YxI/N2W8zsWZHNixWb34KhKhAglKpwcIJW">
+                <form action="{{route('contact-form')}}" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
+                    @csrf
+                  
                     <div class="">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
                             the form!</div>

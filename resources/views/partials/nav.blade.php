@@ -26,7 +26,7 @@
                       <li class="nav-item dropdown"><a class="nav-link link text-black dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="true">Blog</a>
                      <div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="#">Реализация Model</a><a class="text-black dropdown-item display-4" href="#" aria-expanded="false">Реализация Controller</a></div>
                      </li> -->
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="/blog">
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="{{route('blog')}}">
                             <span class=""></span>Blog</a></li>
                     <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="/">
                             <span class=""></span>Pages</a></li>
