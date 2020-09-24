@@ -28,7 +28,7 @@
                      </li> -->
                     <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="{{route('blog')}}">
                             <span class=""></span>Blog</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="/">
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="{{route('pages')}}"">
                             <span class=""></span>Pages</a></li>
                     <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="/feedback">
                             <span class=""></span>Feedback</a></li>

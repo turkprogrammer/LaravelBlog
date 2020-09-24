@@ -41,7 +41,8 @@
                     </div>
                     <span class="gdpr-block">
                         <label>
-                            <span class="textGDPR display-7" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-form5-1d" required="">By continuing you agree to our <a style="color: #149dcc; text-decoration: none;" href="terms.html">Terms of Service</a> and <a style="color: #149dcc; text-decoration: none;" href="policy.html">Privacy Policy</a>.</span>
+                            <span class="textGDPR display-7" style="color: #a7a7a7">
+                                <input type="checkbox" name="gdpr" id="gdpr-form5-1d" required="">By continuing you agree to our <a style="color: #149dcc; text-decoration: none;" href="/pages/terms-of-service">Terms of Service</a> and <a style="color: #149dcc; text-decoration: none;" href="/pages/privacy-statement">Privacy Policy</a>.</span>
                         </label>
                     </span></form>
             </div>

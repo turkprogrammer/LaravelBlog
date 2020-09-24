@@ -19,6 +19,8 @@ Route::get('/', function () {
 Route::get('/blog', 'HomeController@index')->name('blog');//names urls
 //Route::get('/','HomeController@index');
 Route::get('/blog/{slug}', 'HomeController@post');
+Route::get('/pages', 'PageController@index')->name('pages');
+Route::get('/pages/{slug}', 'PageController@page');
 Route::get('/feedback', function() {
     return view('feedback');
 });
