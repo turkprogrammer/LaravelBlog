@@ -22,9 +22,7 @@ Route::get('/blog/{slug}', 'HomeController@post');
 Route::get('/feedback', function() {
     return view('feedback');
 });
-Route::post('/feedback/submit', function() {
-    return "Submited";
-})->name('contact-form');
+Route::post('/feedback/submit', 'ContactController@submit')->name('contact-form');
 
 
 
