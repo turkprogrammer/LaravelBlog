@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\ContactRequest;
 use App\Contact;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller {
 
@@ -16,7 +17,8 @@ class ContactController extends Controller {
         $contact->email = $request->input('email');
         $contact->textarea = $request->input('textarea');        
         $contact->save();// save form to table contacts
-        return redirect('/feedback')->with('success', 'Message was send it!');
+  
+        return redirect('/feedback')->with('success', 'Our manager will contact to you as possible');
     }
 
 }
