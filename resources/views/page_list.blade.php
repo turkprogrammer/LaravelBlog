@@ -1,6 +1,13 @@
 @extends('layouts.master')
 @section('content')
+
 <div class="container">
+      <br/><br/>
+      <div class="mbr-section-head">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>List of pages:</strong></h4>
+
+        </div>
+         <br/>
     <br/>
     @foreach($pages as $page)
     <div class="card">

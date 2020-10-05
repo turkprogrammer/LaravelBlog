@@ -17,7 +17,8 @@
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
-                        <strong>{{ $post->title }}</strong></h3><span>Posted on: <em> {{$post->created_at}}</em></span>
+                        <strong>{{ $post->title }}</strong></h3><span>Posted on: <em> {{$post->created_at}}</em> by: <span class="badge badge-primary"><?php echo ($post->authorId->name); ?></span> </span><br/>
+                        Category: <span class="badge badge-secondary">{{$post->category->name}}</span>
                     <p class="mbr-text mbr-fonts-style display-7">
                         {!! $post->body !!}</p>
                 </div>

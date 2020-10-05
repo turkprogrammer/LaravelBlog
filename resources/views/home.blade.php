@@ -29,7 +29,7 @@
                                     <p class="mbr-text mbr-fonts-style display-7">
                                         {{$post->excerpt}}
                                     </p>
-                                    <span>Posted on: <em> {{$post->created_at}}</em></span>
+                                    <span>Posted on: <em> {{$post->created_at}}</em> Category: <span class="badge badge-secondary">{{$post->category->name}}</span>
                                     <div class="mbr-section-btn">
                                         <a href="/blog/{{$post->slug}}" class="btn btn-primary display-4">
                                             Read...

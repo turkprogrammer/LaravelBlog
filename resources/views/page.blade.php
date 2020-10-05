@@ -5,11 +5,10 @@
 <hr/>
 
 <section class="image1 cid-sbrD4n3Iei" id="image1-1i">
-    
-   
+       
     <div class="container">
         <div class="row align-items-center">
-          
+
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
@@ -20,12 +19,9 @@
             </div>
         </div>
     </div>
-</section> 
+</section>
 
 <section class="social1 cid-s9UwWjzbZe" id="share1-10">
-    
-    
-    
 
     <div class="container">
         <div class="media-container-row">
@@ -58,6 +54,6 @@
             </div>
         </div>
     </div>
-</section>   
+</section>
 
 @endsection
