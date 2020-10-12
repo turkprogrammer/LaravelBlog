@@ -32,19 +32,15 @@
                             <span class=""></span>Pages</a></li>
                     <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="{{route('feedback')}}">
                             <span class=""></span>Feedback</a></li>
-                    <li>
-                        <form class="form-inline">
-                          
-                            <div class="form-group mx-sm-3 mb-2">
-                                <label for="inputPassword2" class="sr-only">Password</label>
-                                <input type="password" class="form-control" id="inputPassword2" placeholder="Search">
-                            </div>
-                            <button type="submit" class="btn btn-primary mb-2">Search</button>
-                        </form>
-                    </li>
+
 
                 </ul>
-
+                <form method="get"  class="form-inline" action="{{route('search')}}">                          
+                    <div class="form-group mx-sm-3 mb-2">                               
+                        <input type="text" class="form-control" id="s" name="s" placeholder="Search...">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Search</button>
+                </form>
 
             </div>
         </div>

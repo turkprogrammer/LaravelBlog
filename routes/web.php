@@ -26,6 +26,7 @@ Route::get('/feedback', function() {
     return view('feedback');
 })->name('feedback');
 Route::post('/feedback/submit', 'ContactController@submit')->name('contact-form');
+Route::get('/search', 'HomeController@search')->name('search');
 
 
 
