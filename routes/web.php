@@ -24,8 +24,9 @@ Route::get('/pages', 'PageController@index')->name('pages');
 Route::get('/pages/{slug}', 'PageController@page');
 Route::get('/feedback', function() {
     return view('feedback');
-});
+})->name('feedback');
 Route::post('/feedback/submit', 'ContactController@submit')->name('contact-form');
+
 
 
 

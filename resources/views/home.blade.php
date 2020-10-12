@@ -30,6 +30,7 @@
                                         {{$post->excerpt}}
                                     </p>
                                     <span>Posted on: <em> {{$post->created_at}}</em> Category: <span class="badge badge-secondary">{{$post->category->name}}</span>
+                                        by: <span class="badge badge-primary"><?php echo ($post->authorId->name); ?></span>
                                     <div class="mbr-section-btn">
                                         <a href="/blog/{{$post->slug}}" class="btn btn-primary display-4">
                                             Read...
